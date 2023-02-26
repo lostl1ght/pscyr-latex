@@ -1,0 +1,24 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{t2afar.fd}
+   [2004/10/14 Fontinst v1.914 font definitions for T2A/far.]
+
+\DeclareFontFamily{T2A}{far}{}
+
+\DeclareFontShape{T2A}{far}{m}{n}{<-> farr6a}{}
+\DeclareFontShape{T2A}{far}{m}{sl}{<-> farro6a}{}
+\DeclareFontShape{T2A}{far}{m}{sc}{<-> farrc6a}{}
+\DeclareFontShape{T2A}{far}{bx}{n}{<-> farb6a}{}
+\DeclareFontShape{T2A}{far}{bx}{sl}{<-> farbo6a}{}
+\DeclareFontShape{T2A}{far}{bx}{sc}{<-> farbc6a}{}
+\DeclareFontShape{T2A}{far}{m}{it}{<-> farri6a}{}
+\DeclareFontShape{T2A}{far}{bx}{it}{<-> farbi6a}{}
+\DeclareFontShape{T2A}{far}{eb}{n}{<-> farbe6a}{}
+
+\DeclareFontShape{T2A}{far}{b}{n}{<->ssub * far/bx/n}{}
+\DeclareFontShape{T2A}{far}{b}{sl}{<->ssub * far/bx/sl}{}
+\DeclareFontShape{T2A}{far}{b}{it}{<->ssub * far/bx/it}{}
+
+\endinput
