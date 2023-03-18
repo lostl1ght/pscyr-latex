@@ -4,9 +4,9 @@
 
 Installing these packages ensures that PSCyr fonts will work (probably).
 
-### Pop!_OS
+### Debian based
 
-And maybe Ubuntu.
+(Debian, Ubuntu, Pop!_OS)
 
 ```bash
 sudo apt install texlive-lang-english texlive-lang-cyrillic texlive-latex-base texlive-latex-extra
